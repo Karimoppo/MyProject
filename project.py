@@ -92,11 +92,11 @@ def end_game(Score):
     ListY = ('yes','ye','y','ys','es')
     ListN = ('no','n')
     if Score < 0:
-        print_pause('You have failed')
+        print_pause('You have failed',1)
     elif Score > 20 :
-        print_pause('Your mission is a success')
+        print_pause('Your mission is a success',1)
     else:
-        print_pause('You had a normal mission')
+        print_pause('You had a normal mission',1)
     while Y == 0 :
         X = str(input('Please write Yes or No '))
         X = X.lower()
