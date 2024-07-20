@@ -32,7 +32,7 @@ def sleeping(choice1,choice2,Answer1,Answer2,Score):
     ran = random.randint(0,10)
     Day = Answer1
     while Y == 0 :
-        X =str(input('(please enter one or two)'))
+        X =str(input('(please enter 1 or 2)'))
         if X == '1' :
             Y = 0
             Day += 1
